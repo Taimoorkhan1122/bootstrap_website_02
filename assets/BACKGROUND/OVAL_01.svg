@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="336px" viewBox="0 0 109 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval Copy 6</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ABCFFB" offset="0%"></stop>
+            <stop stop-color="#72A2F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0399709302">
+        <g id="1.0-Home---Usuario" transform="translate(-1331.000000, -2412.000000)" stroke="url(#linearGradient-1)" stroke-width="100">
+            <path d="M1514,2713 C1587.45387,2713 1647,2653.45387 1647,2580 C1647,2521.32562 1609.00546,2471.52533 1556.27755,2453.86033 C1542.99593,2449.4107 1528.77949,2447 1514,2447 C1440.54613,2447 1381,2506.54613 1381,2580 C1381,2653.45387 1440.54613,2713 1514,2713 Z" id="Oval-Copy-6"></path>
+        </g>
+    </g>
+</svg>

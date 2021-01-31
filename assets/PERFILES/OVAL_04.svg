@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="394px" viewBox="0 0 320 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>OVAL_04</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ABCFFB" offset="0%"></stop>
+            <stop stop-color="#72A2F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5994504">
+        <g id="1.0-Home---Usuario" transform="translate(0.000000, -3602.000000)" stroke="url(#linearGradient-1)" stroke-width="100">
+            <g id="Perfiles" transform="translate(-74.000000, 3367.000000)">
+                <g id="textura-perfiles" transform="translate(51.000000, 75.500000)">
+                    <path d="M146.5,503 C227.409716,503 293,437.409716 293,356.5 C293,291.869945 251.148867,237.014745 193.068884,217.556683 C178.439121,212.655393 162.779661,210 146.5,210 C65.5902842,210 0,275.590284 0,356.5 C0,437.409716 65.5902842,503 146.5,503 Z" id="OVAL_04" opacity="0.0399709302"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

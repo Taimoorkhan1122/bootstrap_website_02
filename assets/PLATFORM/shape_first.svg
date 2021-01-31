@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="675px" height="502px" viewBox="0 0 675 502" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape_03</title>
+    <defs>
+        <linearGradient x1="106.112538%" y1="24.5135527%" x2="7.534689%" y2="75.4378479%" id="linearGradient-1">
+            <stop stop-color="#105B91" offset="0%"></stop>
+            <stop stop-color="#010027" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.113485647">
+        <g id="1.0-Home---Usuario" transform="translate(-614.000000, -1025.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-4" transform="translate(180.000000, 1003.000000)">
+                <path d="M759.560864,122.854538 C501.079664,205.229939 512.002031,46.9237302 456.565132,82.870642 C401.128233,118.817554 504.286004,214.778712 520.69527,310.263816 C535.28986,395.189366 390.64733,519.326068 524.207776,538.636854 C625.316328,553.255596 701.056533,369.559823 907.993256,431.207765 C1213.82376,522.316878 1025.13785,38.2177818 759.560864,122.854538 Z" id="Combined-Shape_03" style="mix-blend-mode: multiply;" transform="translate(752.944591, 308.468782) rotate(164.000000) translate(-752.944591, -308.468782) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

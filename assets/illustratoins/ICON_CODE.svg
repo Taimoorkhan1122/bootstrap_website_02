@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="30px" viewBox="0 0 57 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON_CODE</title>
+    <defs>
+        <linearGradient x1="42.9116822%" y1="22.6945279%" x2="247.666418%" y2="171.849636%" id="linearGradient-1">
+            <stop stop-color="#7288F6" offset="0%"></stop>
+            <stop stop-color="#72B6F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.5608185%" y1="22.6945279%" x2="118.019563%" y2="171.849636%" id="linearGradient-2">
+            <stop stop-color="#7288F6" offset="0%"></stop>
+            <stop stop-color="#72B6F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.0311847%" y1="22.6945279%" x2="216.447723%" y2="171.849636%" id="linearGradient-3">
+            <stop stop-color="#7288F6" offset="0%"></stop>
+            <stop stop-color="#72B6F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.340048147">
+        <g id="1.0-Home---Usuario" transform="translate(-1102.000000, -331.000000)" fill-rule="nonzero">
+            <g id="ICON_CODE" transform="translate(1102.000000, 331.000000)">
+                <polygon id="Path" fill="url(#linearGradient-1)" points="18.6369 25.4916 -1.59872116e-14 15.841 -1.59872116e-14 12.7823 18.6369 3.066 18.6369 8.0592 5.9057 14.2715 18.6369 20.513"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-2)" points="36.8723 0.2555 27.3166 29.7986 22.3453 29.7548 32.0251 4.4408921e-14"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-3)" points="40.3179 21.0021 51.8154 15.695 40.3179 8.9498 40.3179 4.1099 56.8451 14.6511 56.8451 17.4616 40.2887 25.8201"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

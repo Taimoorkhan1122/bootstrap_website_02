@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="67px" viewBox="0 0 176 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button copy</title>
+    <defs>
+        <filter x="-24.3%" y="-89.0%" width="148.7%" height="278.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.0745098039   0 0 0 0 0.443137255  0 0 0 0.313619974 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="2.31398124%" y1="45.1594713%" x2="102.571932%" y2="53.7355556%" id="linearGradient-2">
+            <stop stop-color="#7288F6" offset="0%"></stop>
+            <stop stop-color="#72B6F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.0-STYLE-GUIDE" transform="translate(-413.000000, -990.000000)">
+            <g id="BUTTON" transform="translate(221.000000, 878.000000)">
+                <g id="button-copy" transform="translate(205.000000, 119.000000)" filter="url(#filter-1)">
+                    <g id="Group" fill="url(#linearGradient-2)" fill-rule="nonzero">
+                        <g id="button-color">
+                            <path d="M20.5,1.42108547e-14 L129.5,1.42108547e-14 C140.821837,1.21310669e-14 150,9.17816263 150,20.5 C150,31.8218374 140.821837,41 129.5,41 L20.5,41 C9.17816263,41 1.38652519e-15,31.8218374 0,20.5 C-1.38652519e-15,9.17816263 9.17816263,1.62906425e-14 20.5,1.42108547e-14 Z" id="Background"></path>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(1.000000, 11.000000)" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" line-spacing="23">
+                        <g id="texto">
+                            <text id="Publica-vacante"></text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

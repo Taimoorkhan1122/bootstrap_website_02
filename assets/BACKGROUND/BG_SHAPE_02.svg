@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="645px" height="1373px" viewBox="0 0 645 1373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BG</title>
+    <defs>
+        <linearGradient x1="11.6079105%" y1="105.207961%" x2="-39.3656923%" y2="76.4154525%" id="linearGradient-1">
+            <stop stop-color="#105B91" offset="0%"></stop>
+            <stop stop-color="#010027" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0359738372">
+        <g id="1.0-Home---Usuario" transform="translate(-795.000000, -2822.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-18" transform="translate(-412.648053, -14.000000)">
+                <rect id="BG" transform="translate(2134.677236, 3522.500000) rotate(-315.000000) translate(-2134.677236, -3522.500000) " x="1450.17724" y="2838" width="1369" height="1369" rx="100"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

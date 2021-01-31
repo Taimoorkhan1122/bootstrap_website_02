@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="310px" viewBox="0 0 311 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape Copy 2</title>
+    <defs>
+        <linearGradient x1="-6.75007286%" y1="88.2363754%" x2="44.5343536%" y2="63.762476%" id="linearGradient-1">
+            <stop stop-color="#105B91" offset="0%"></stop>
+            <stop stop-color="#010027" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0328397529">
+        <g id="1.0-Home---Usuario" transform="translate(-1056.000000, -1912.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1366.5,2067 C1366.5,2152.48173 1296.98173,2222 1211.5,2222 C1126.01827,2222 1056.5,2152.7392 1056.5,2067 C1056.5,1981.51827 1126.01827,1912 1211.5,1912 C1297.2392,1912 1366.5,1981.51827 1366.5,2067 Z" id="Shape-Copy-2"></path>
+        </g>
+    </g>
+</svg>
