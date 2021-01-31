@@ -11,31 +11,24 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <!--Jquery for light slider-->
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-    ></script>
-    <script type="text/javascript" src="lightslider/lightslider.js"></script>
 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="lightslider/lightslider.css" />
     <title>Wingoo</title>
   </head>
   <body>
     <!-- fluid container stretching througout the page -->
     <div id="mainContainer" class="container-fluid px-0">
       <div id="navHeaderContainer" class="container-fluid">
-        <nav class="container-fluid navbar navbar-expand-lg navbar-dark">
+        <nav class="container-fluid navbar navbar-expand-lg navbar-light">
           <div class="container my-3">
             <a class="navbar-brand" href="#"
               ><img
                 class="web-view z-index-8"
-                src="./assets/WING_IGP_LIGHT.svg"
+                src="./assets/WING_IGP_DARK.svg"
                 alt="Wingoo logo" />
               <img
                 class="mobile-view"
@@ -71,107 +64,48 @@
               </ul>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">¿Cómo funciona?</a>
+                  <a class="nav-link" href="#¿Cómofunciona">¿Cómo funciona?</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Nosotros</a>
+                  <a class="nav-link" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contacto</a>
+                  <a class="nav-link" href="#">Contacto</a>
                 </li>
               </ul>
-              <button type="button" class="primary">Inicia sesión</button>
+              <button type="button" class="primary">Publica vacante</button>
             </div>
           </div>
         </nav>
         <!-- header container for background image  -->
-        <div class="header d-flex flex-wrap hero-container">
-          <!-- hero container  -->
+        <div class="header d-flex hero-container">
+          <!-- HERO CONTAINER  -->
           <div
-            id="hero-container-text"
-            class="container-fluid text-center background-circle pt-5"
+            class="container d-flex align-items-between text-dark py-1"
+            style="max-width: 980px"
           >
+            <!-- main heading -->
             <div
-              class="container d-flex flex-column text-center text-white py-4"
+              id="headerText"
+              class="container d-flex align-items-start justify-content-center flex-column innerbox-top mb-5 py-2 px-2"
+              style="flex: 1; min-width: 560px"
             >
-              <!-- main heading -->
-              <div class="innerbox-top mb-5 py-2 px-2">
-                <h1 class="title my-2">Tu búsqueda de trabajo termina aquí</h1>
-                <p class="body my-2 text-white">
-                  Te conectamos con oportunidades atrac@vas en las empresas más
-                  innovadoras del mundo
-                </p>
-              </div>
-              <!-- illustrations -->
-              <div id="illustrations" class="container my-0">
-                <div class="container developer">
-                  <!-- particles , code and files -->
-                  <img
-                    src="./assets/illustratoins/FILE_ILUSTRACION.svg"
-                    class="files-position"
-                    alt=""
-                  />
-                  <img
-                    src="./assets/illustratoins/PARTICLES_01.svg"
-                    class="particles-position remove"
-                    alt=""
-                  />
-                  <img
-                    src="./assets/illustratoins/ICON_CODE.svg"
-                    class="code-position"
-                    alt=""
-                  />
-
-                  <!-- Developer -->
-
-                  <img
-                    src="./assets/illustratoins/DEVELOPER.svg"
-                    alt="developer"
-                    class="developer-position"
-                  />
-                </div>
-                <!-- particles and icons -->
-                <img
-                  src="./assets/illustratoins/ICON_STAR.svg"
-                  class="star-position remove"
-                  alt=""
-                />
-                <img
-                  src="./assets/illustratoins/ICON_TRIANGLE.svg"
-                  class="triangle-position remove"
-                  alt=""
-                />
-                <img
-                  src="./assets/illustratoins/ICON_PIE.svg"
-                  class="pie-position remove"
-                  alt=""
-                />
-                <img
-                  src="./assets/illustratoins/PARTICLES_01.svg"
-                  class="particles-laptop remove"
-                  alt=""
-                />
-                <!-- laptop -->
-                <img
-                  src="./assets/illustratoins/LAPTOP_ILUSTRACION.svg"
-                  alt="isometric laptop illustration"
-                  class="laptop-position"
-                />
-                <!-- Building -->
-                <img
-                  src="./assets/illustratoins/BUILDING_ILUSTRACION.svg"
-                  alt="isometric buildings"
-                  class="building-position"
-                />
-              </div>
-
-              <div class="innerbox-bottom my-1">
-                <!-- hero CTA -->
+              <h1 class="title my-2">
+                El talento es el ingrediente secreto de las empresas exitosas
+              </h1>
+              <p class="body my-2 text-dark" style="max-width: 400px">
+                Llevas años contratando a la gente equivocada.
+                <strong> Wingoo </strong>te conecta con los mejores candidatos
+                del país. La producGvidad de tu equipo nunca estará tan alta
+              </p>
+              <!-- BUTTON AND  CTA -->
+              <div class="innerbox-bottom my-3">
+                <!-- HERO CTA -->
                 <button type="button" class="secondary my-3">Regístrate</button>
 
                 <!-- hero list  -->
                 <ul
-                  class="list-inline header-li d-md-block d-flex flex-column my-5"
+                  class="list-inline header-li d-md-block d-flex flex-column my-2"
                 >
                   <li class="list-inline-item">
                     <img
@@ -179,7 +113,7 @@
                       src="./assets/HOME/ICON_CHECK.svg"
                       alt="check"
                     />
-                    <span> Oportunidades de trabajo actualizadas </span>
+                    <span> Publica totalmente graGs </span>
                   </li>
                   <li class="list-inline-item">
                     <img
@@ -187,7 +121,7 @@
                       src="./assets/HOME/ICON_CHECK.svg"
                       alt="check"
                     />
-                    <span> Transparencia en proceso de selección </span>
+                    <span>Sin registro </span>
                   </li>
                   <li class="list-inline-item">
                     <img
@@ -195,9 +129,24 @@
                       src="./assets/HOME/ICON_CHECK.svg"
                       alt="check"
                     />
-                    <span> Respuesta inmediata </span>
+                    <span> Sin compromisos </span>
                   </li>
                 </ul>
+              </div>
+            </div>
+
+            <!-- illustrations -->
+            <div
+              id="illustrations"
+              class="container my-0 d-flex align-items-center"
+              style="flex: 1; position: relative"
+            >
+              <div class="image" style="position: absolute; right: 0%">
+                <img
+                  src="./assets/illustratoins/ILUSTRACION_01.svg"
+                  alt=""
+                  style="max-width: 130%"
+                />
               </div>
             </div>
           </div>
@@ -205,506 +154,47 @@
       </div>
       <!-- main container for ¿Cómo funciona? (how it works) -->
       <div id="como-functiona" class="container-fluid">
-        <img
-          id="bg-shape-01"
-          class="remove"
-          src="./assets/BACKGROUND/BG_SHAPE_01.svg"
-          alt="bg-shap-bottom"
-        />
-        <img
-          id="bg-shape-02"
-          src="./assets/BACKGROUND/BG_SHAPE_02.svg"
-          alt="bg-shap-02-bottom"
-        />
-        <img id="bg-cube-01" src="./assets/BACKGROUND/CUBE.svg" alt="cube" />
-        <img id="bg-cube-02" src="./assets/BACKGROUND/CUBE.svg" alt="cube" />
-        <img id="bg-dots" src="./assets/BACKGROUND/DOTS.svg" alt="cube" />
-        <img id="bg-oval-01" src="./assets/BACKGROUND/OVAL_01.svg" alt="cube" />
-        <img id="bg-oval-02" src="./assets/BACKGROUND/OVAL_02.svg" alt="cube" />
-        <img id="bg-oval-03" src="./assets/BACKGROUND/OVAL_03.svg" alt="cube" />
-        <img id="bg-oval-04" src="./assets/BACKGROUND/OVAL_04.svg" alt="cube" />
-
         <div class="container text-center m-auto my-5 py-2">
           <!-- container for ¿Cómo funciona? -->
-          <div class="container-fluid">
-            <h1 class="title text-white">¿Cómo funciona?</h1>
+          <div id="¿Cómofunciona" class="container">
+            <h1 class="title">¿Cómo funciona?</h1>
           </div>
-          <!-- Start of container for PERFIL (Profile) -->
-          <div
-            class="container-fluid d-flex flex-wrap justify-content-around my-4 py-3"
-          >
-            <!-- text container -->
-            <div
-              id="text"
-              class="container d-flex flex-column justify-content-center text-container p-4"
-            >
-              <h4 class="sub-title text-white">PERFIL</h4>
-              <!-- wave line  -->
-              <img
-                src="./assets/PLATFORM/ICON_PATH_02.svg"
-                class="container w-50 mb-2"
-                alt="line"
-              />
-              <h4 class="sub-title text-white">
-                Llena tu perfil personalizado
-              </h4>
-              <p class="body text-white">
-                El perfil personalizado nos ayudará a colocarte con mayor
-                facilidad a posiciones en las que puedas sobresalir
-              </p>
+          <div class="row">
+            <!-- ====== Start of Container 1 ======  -->
+            <div class="container-functiona col col-lg-4 col-md-6 col-sm-12">
+              <!-- ====== container ====== image  -->
+              <div class="image">
+                <img
+                  src="./assets/illustratoins/ILUSTRACION_02.svg"
+                  alt="man using laptop illustration"
+                />
+              </div>
+              <!-- ====== Text Container ====== image  -->
+              <div class="text">
+                <div class="heading-text">
+                  <h4 class="sub-title text-upper my-0">Publica</h4>
+                  <img
+                    src="./assets/PLATFORM/ICON_PATH_02.svg"
+                    class="container mb-2"
+                    alt="line"
+                  />
+                </div>
+                <div class="sub-heading">
+                  <p class="sub-title my-2 mx-auto">
+                    Envía tus requerimientos de la vacante
+                  </p>
+                </div>
+                <p class="body">
+                  Recibirás una llamada con alguno de nuestros asesores para
+                  conocer los detalles de la vacante. De esta manera recibirás
+                  el candidato ideal para sumar a tu equipo.
+                </p>
+              </div>
             </div>
 
-            <!-- image container -->
-            <div
-              id="img-bg-1"
-              class="container d-flex align-items-center w-50 img-w-100"
-            >
-              <img
-                src="./assets/PERFIL.svg"
-                class="figure-img img-fluid rounded m-0 w-100 illustration"
-                alt="profile illustration"
-              />
-              <img
-                src="./assets/PLATFORM/shape_first.svg"
-                class="bg-img-1 remove"
-                alt="background shade"
-              />
-              <!-- ----------- Particles ----------- -->
-              <img
-                src="./assets/PLATFORM/PARTICLES_04.svg"
-                class="particles-1"
-                alt="particles"
-              />
-              <img
-                src="./assets/PLATFORM/PARTICLES_02.svg"
-                class="particles-1-top"
-                alt="particles"
-              />
-            </div>
-          </div>
-          <!-- Start of container for APLICA (Application) -->
-          <div
-            class="container-fluid d-flex flex-row-reverse flex-wrap justify-content-around my-5 py-5"
-          >
-            <!-- text container -->
-            <div
-              id="text"
-              class="container d-flex flex-column justify-content-center text-container p-4"
-            >
-              <h4 class="sub-title text-white">APLICA</h4>
-              <!-- wave line -->
-              <img
-                src="./assets/PLATFORM/ICON_PATH_02.svg"
-                class="container mb-2"
-                alt="line"
-                style="width: 35%"
-              />
-              <h4 class="sub-title text-white">
-                ¡Aplica a la vacante con un solo click!
-              </h4>
-              <p class="body text-white">
-                En un click tendremos tus datos del perfil y posteriormente
-                pasarás por un proceso de evaluación técnica y entrevista.
-              </p>
-            </div>
-            <!-- image container -->
-            <div
-              id="img-bg-2"
-              class="container d-flex align-items-center p-0 w-50 img-w-100"
-            >
-              <img
-                src="./assets/HISTORIAL_DE_TRABAJO.svg"
-                class="figure-img img-fluid rounded m-0 w-100 illustration"
-                alt="profile illustration"
-              />
-              <img
-                src="./assets/PLATFORM/shape_second.svg"
-                class="bg-img-2 remove"
-                alt="background shade"
-              />
-              <!-- ----------- Particles ----------- -->
-              <img
-                src="./assets/PLATFORM/PARTICLES_04.svg"
-                class="particles-2"
-                alt="particles"
-              />
-            </div>
-          </div>
-
-          <!-- Start of container for RECIBE RESPUESTA (Reciever Answer) -->
-          <div
-            class="container-fluid d-flex flex-wrap justify-content-around my-5 py-5"
-          >
-            <!-- text container -->
-            <div
-              id="text"
-              class="container d-flex flex-column justify-content-center text-container p-4"
-            >
-              <h4 class="sub-title text-white">RECIBE RESPUESTA</h4>
-              <!-- wave line -->
-              <img
-                src="./assets/PLATFORM/ICON_PATH.svg"
-                class="container mb-2"
-                alt="line"
-                style="width: 35%"
-              />
-              <h4 class="sub-title text-white">
-                ¡Acepta la propuesta del trabajo de tus sueños!
-              </h4>
-              <p class="body text-white">
-                Recibirás una respuesta sobre tu proceso. En el caso de ser un
-                éxito, recibirás una propuesta. Mientras que en el caso de una
-                negaBva enviaremos la resolución junto con retroalimentación.
-              </p>
-            </div>
-            <!-- image container -->
-            <div
-              id="img-bg-3"
-              class="container d-flex align-items-center p-0 w-50 img-w-100"
-            >
-              <img
-                src="./assets/HISTORIAL.svg"
-                class="figure-img img-fluid rounded m-0 w-100 illustration"
-                alt="profile illustration"
-                style="width: 35%"
-              />
-              <img
-                src="./assets/PLATFORM/shape_last.svg"
-                class="bg-img-3 remove"
-                alt="background shade"
-              />
-              <!-- ----------- Particles ----------- -->
-              <img
-                src="./assets/PLATFORM/PARTICLES_05.svg"
-                class="particles-3"
-                alt="particles"
-              />
-            </div>
+            <!-- ====== End of Container 1 ======  -->
           </div>
         </div>
-      </div>
-
-      <!-- start of container for Vacantes desta cards (vacancies) -->
-      <div id="cards-container" class="container m-0 mx-auto">
-        <div class="container text-center py-1">
-          <h4 class="title text-white">Vacantes destacadas</h4>
-          <p class="body text-white">
-            En un click tendremos tus datos del perfil y posteriormente pasarás
-            <br />
-            por un proceso de evaluación técnica y entrevista.
-          </p>
-        </div>
-      </div>
-      <!-- start of card section -->
-
-      <!-- ---------------- exmaple ----------------  -->
-      <!---------------- light slider ------------------->
-      <div
-        class="container d-flex justify-content-around my-5 slider-container"
-      >
-        <ul id="autoWidth" class="cs-hidden">
-          <li class="item-a">
-            <!-- start of card 01 -->
-            <div
-              id="card"
-              class="card card-style my-2 p-2 mx-auto"
-              style="width: 16rem"
-            >
-              <img
-                src="./assets/VACANTES/logo.svg"
-                class="card-img-top logo px-4 py-4 m-auto"
-                alt="logo"
-              />
-              <div class="card-body text-center py-1">
-                <h4 class="m-0 sub-title">Nombre de la empresa</h4>
-
-                <p class="card-text m-0 body">Puesto de la oferta</p>
-                <hr class="m-1 line" />
-                <div class="d-flex justify-content-center">
-                  <img src="./assets/VACANTES/location-pin.svg" alt="" />
-                  <p class="mb-1 mx-2 body">Guadalajara, Jalisco</p>
-                </div>
-
-                <!-- card icons  -->
-                <div
-                  id="card-icons-container"
-                  class="container d-flex flex-wrap justify-content-between my-1 p-0"
-                >
-                  <div
-                    id="middle"
-                    class="container d-flex align-items-center justify-content-between my-1"
-                  >
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/skill-development.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Habilidades</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/settings.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Aptitudes</p>
-                    </div>
-                  </div>
-                  <div class="d-flex mx-auto mb-3">
-                    <img src="./assets/VACANTES/skill.svg" alt="skills icon" />
-                    <p class="body ms-2 my-0">Software</p>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary mb-3">Go somewhere</a>
-                <a href="#" class="link-primary d-inline-block"
-                  >Descubre más ></a
-                >
-              </div>
-            </div>
-
-            <!-- end of card -->
-          </li>
-          <li class="item-a">
-            <!-- start of card 01 -->
-            <div
-              id="card"
-              class="card card-style my-2 p-2 mx-auto"
-              style="width: 16rem"
-            >
-              <img
-                src="./assets/VACANTES/logo.svg"
-                class="card-img-top logo px-4 py-4 m-auto"
-                alt="logo"
-              />
-              <div class="card-body text-center py-1">
-                <h4 class="m-0 sub-title">Nombre de la empresa</h4>
-
-                <p class="card-text m-0 body">Puesto de la oferta</p>
-                <hr class="m-1 line" />
-                <div class="d-flex justify-content-center">
-                  <img src="./assets/VACANTES/location-pin.svg" alt="" />
-                  <p class="mb-1 mx-2 body">Guadalajara, Jalisco</p>
-                </div>
-
-                <!-- card icons  -->
-                <div
-                  id="card-icons-container"
-                  class="container d-flex flex-wrap justify-content-between my-1 p-0"
-                >
-                  <div
-                    id="middle"
-                    class="container d-flex align-items-center justify-content-between my-1"
-                  >
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/skill-development.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Habilidades</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/settings.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Aptitudes</p>
-                    </div>
-                  </div>
-                  <div class="d-flex mx-auto mb-3">
-                    <img src="./assets/VACANTES/skill.svg" alt="skills icon" />
-                    <p class="body ms-2 my-0">Software</p>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary mb-3">Go somewhere</a>
-                <a href="#" class="link-primary d-inline-block"
-                  >Descubre más ></a
-                >
-              </div>
-            </div>
-
-            <!-- end of card -->
-          </li>
-          <li class="item-a">
-            <!-- start of card 01 -->
-            <div
-              id="card"
-              class="card card-style my-2 p-2 mx-auto"
-              style="width: 16rem"
-            >
-              <img
-                src="./assets/VACANTES/logo.svg"
-                class="card-img-top logo px-4 py-4 m-auto"
-                alt="logo"
-              />
-              <div class="card-body text-center py-1">
-                <h4 class="m-0 sub-title">Nombre de la empresa</h4>
-
-                <p class="card-text m-0 body">Puesto de la oferta</p>
-                <hr class="m-1 line" />
-                <div class="d-flex justify-content-center">
-                  <img src="./assets/VACANTES/location-pin.svg" alt="" />
-                  <p class="mb-1 mx-2 body">Guadalajara, Jalisco</p>
-                </div>
-
-                <!-- card icons  -->
-                <div
-                  id="card-icons-container"
-                  class="container d-flex flex-wrap justify-content-between my-1 p-0"
-                >
-                  <div
-                    id="middle"
-                    class="container d-flex align-items-center justify-content-between my-1"
-                  >
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/skill-development.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Habilidades</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/settings.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Aptitudes</p>
-                    </div>
-                  </div>
-                  <div class="d-flex mx-auto mb-3">
-                    <img src="./assets/VACANTES/skill.svg" alt="skills icon" />
-                    <p class="body ms-2 my-0">Software</p>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary mb-3">Go somewhere</a>
-                <a href="#" class="link-primary d-inline-block"
-                  >Descubre más ></a
-                >
-              </div>
-            </div>
-
-            <!-- end of card -->
-          </li>
-          <li class="item-a">
-            <!-- start of card 01 -->
-            <div
-              id="card"
-              class="card card-style my-2 p-2 mx-auto"
-              style="width: 16rem"
-            >
-              <img
-                src="./assets/VACANTES/logo.svg"
-                class="card-img-top logo px-4 py-4 m-auto"
-                alt="logo"
-              />
-              <div class="card-body text-center py-1">
-                <h4 class="m-0 sub-title">Nombre de la empresa</h4>
-
-                <p class="card-text m-0 body">Puesto de la oferta</p>
-                <hr class="m-1 line" />
-                <div class="d-flex justify-content-center">
-                  <img src="./assets/VACANTES/location-pin.svg" alt="" />
-                  <p class="mb-1 mx-2 body">Guadalajara, Jalisco</p>
-                </div>
-
-                <!-- card icons  -->
-                <div
-                  id="card-icons-container"
-                  class="container d-flex flex-wrap justify-content-between my-1 p-0"
-                >
-                  <div
-                    id="middle"
-                    class="container d-flex align-items-center justify-content-between my-1"
-                  >
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/skill-development.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Habilidades</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/settings.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Aptitudes</p>
-                    </div>
-                  </div>
-                  <div class="d-flex mx-auto mb-3">
-                    <img src="./assets/VACANTES/skill.svg" alt="skills icon" />
-                    <p class="body ms-2 my-0">Software</p>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary mb-3">Go somewhere</a>
-                <a href="#" class="link-primary d-inline-block"
-                  >Descubre más ></a
-                >
-              </div>
-            </div>
-
-            <!-- end of card -->
-          </li>
-          <li class="item-a">
-            <!-- start of card 01 -->
-            <div
-              id="card"
-              class="card card-style my-2 p-2 mx-auto"
-              style="width: 16rem"
-            >
-              <img
-                src="./assets/VACANTES/logo.svg"
-                class="card-img-top logo px-4 py-4 m-auto"
-                alt="logo"
-              />
-              <div class="card-body text-center py-1">
-                <h4 class="m-0 sub-title">Nombre de la empresa</h4>
-
-                <p class="card-text m-0 body">Puesto de la oferta</p>
-                <hr class="m-1 line" />
-                <div class="d-flex justify-content-center">
-                  <img src="./assets/VACANTES/location-pin.svg" alt="" />
-                  <p class="mb-1 mx-2 body">Guadalajara, Jalisco</p>
-                </div>
-
-                <!-- card icons  -->
-                <div
-                  id="card-icons-container"
-                  class="container d-flex flex-wrap justify-content-between my-1 p-0"
-                >
-                  <div
-                    id="middle"
-                    class="container d-flex align-items-center justify-content-between my-1"
-                  >
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/skill-development.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Habilidades</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-0 my-2">
-                      <img
-                        src="./assets/VACANTES/settings.svg"
-                        alt="skills icon"
-                      />
-                      <p class="body ms-2 my-0">Aptitudes</p>
-                    </div>
-                  </div>
-                  <div class="d-flex mx-auto mb-3">
-                    <img src="./assets/VACANTES/skill.svg" alt="skills icon" />
-                    <p class="body ms-2 my-0">Software</p>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary mb-3">Go somewhere</a>
-                <a href="#" class="link-primary d-inline-block"
-                  >Descubre más ></a
-                >
-              </div>
-            </div>
-
-            <!-- end of card -->
-          </li>
-        </ul>
-        <!-- buttons -->
       </div>
       <!------------------- Start of Perfiles (profile) section   ------------------->
       <div
@@ -920,8 +410,6 @@
       </footer>
     </div>
 
-    <!-- light slider JQuery -->
-    <script src="./script.js"></script>
     <!--  Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

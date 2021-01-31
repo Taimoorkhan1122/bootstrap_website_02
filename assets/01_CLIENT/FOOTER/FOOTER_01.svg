@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="183px" viewBox="0 0 1440 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 1</title>
+    <defs>
+        <linearGradient x1="39.7367721%" y1="49.7534623%" x2="65.9000266%" y2="50.0570954%" id="linearGradient-1">
+            <stop stop-color="#7288F6" offset="0%"></stop>
+            <stop stop-color="#72B6F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.181826637">
+        <g id="1.0-Home---Cliente" transform="translate(0.000000, -3074.000000)" fill="url(#linearGradient-1)">
+            <g id="footer" transform="translate(-213.000000, 2852.000000)">
+                <g id="Group-10" transform="translate(0.000000, 144.000000)">
+                    <path d="M1921.01153,127.348322 C1814.73171,83.8781162 1674.19846,62.5795557 1554.09405,90.7502796 C1450.02203,115.160023 1366.9065,174.152997 1255.01726,176.316957 C1170.29229,177.955844 1095.71617,146.013673 1016.2528,128.538892 C902.507999,103.523834 770.692487,109.039707 664.026521,143.279286 C626.717824,155.254766 592.044348,170.624897 551.729025,178.477427 C448.890612,198.508663 337.341825,165.588741 229.644173,172.153013 C136.35622,177.83984 49.6076791,219.235924 14.7617635,271 L2045.4726,271 C2051.87495,217.119936 1986.03278,153.94383 1921.01153,127.348322" id="Fill-1" transform="translate(1030.333239, 174.500000) scale(-1, 1) translate(-1030.333239, -174.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

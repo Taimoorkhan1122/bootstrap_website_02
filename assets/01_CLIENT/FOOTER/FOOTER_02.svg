@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="189px" viewBox="0 0 1440 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path 3</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ABCFFB" offset="0%"></stop>
+            <stop stop-color="#72A2F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.330804869">
+        <g id="1.0-Home---Cliente" transform="translate(0.000000, -3067.000000)" fill="url(#linearGradient-1)">
+            <g id="footer" transform="translate(-213.000000, 2852.000000)">
+                <g id="Group-10" transform="translate(0.000000, 144.000000)">
+                    <path d="M20.5657599,112.792715 C30.2244892,112.792715 232.494742,55.1682725 391.47117,97.8743715 C550.447597,140.580471 813.700788,239.228189 994.952548,216.122256 C1176.20431,193.016322 1377.65233,60.4796682 1544.83836,71.6691009 C1656.29571,79.1287228 1716.58457,110.397981 1725.70493,165.476875 L1725.70493,260 L0.935493915,260 C7.58318508,161.86181 14.1266071,112.792715 20.5657599,112.792715 Z" id="Path-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

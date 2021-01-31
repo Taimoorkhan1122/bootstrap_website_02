@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="280px" viewBox="0 0 124 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval Copy</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ABCFFB" offset="0%"></stop>
+            <stop stop-color="#72A2F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.12200218">
+        <g id="1.0-Home---Cliente" transform="translate(-1316.000000, -1665.000000)" stroke="url(#linearGradient-1)" stroke-width="100">
+            <g id="Perfiles" transform="translate(-42.000000, 1490.000000)">
+                <g id="textura-perfiles" transform="translate(51.000000, 75.500000)">
+                    <path d="M1447,329.5 C1496.70563,329.5 1537,289.205627 1537,239.5 C1537,199.795529 1511.28941,166.096089 1475.60887,154.142331 C1466.6213,151.1313 1457.00116,149.5 1447,149.5 C1397.29437,149.5 1357,189.794373 1357,239.5 C1357,289.205627 1397.29437,329.5 1447,329.5 Z" id="Oval-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

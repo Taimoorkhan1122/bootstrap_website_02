@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_sesgo</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ABCFFB" offset="0%"></stop>
+            <stop stop-color="#72A2F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.8816894%" y1="9.80358271%" x2="13.6977806%" y2="110.546195%" id="linearGradient-2">
+            <stop stop-color="#DFBA43" offset="0%"></stop>
+            <stop stop-color="#E8A476" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_sesgo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 10.000000)" fill-rule="nonzero" id="Path">
+            <path d="M43,22.146075 L43,46.44 C43,48.339759 41.459759,49.88 39.56,49.88 L15.48,49.88 C13.5802388,49.88 12.04,48.3397612 12.04,46.44 L12.04,10.32 L30.475175,10.32 C31.3395875,10.3215053 32.1719951,10.64718 32.807925,11.232675 L41.89275,19.61875 C42.5976729,20.2702437 42.998964,21.1862004 43,22.146075 L43,22.146075 Z" fill="url(#linearGradient-1)"></path>
+            <polygon fill="url(#linearGradient-2)" points="15.48 12.04 17.2 20.64 10.32 15.48 3.44 20.64 5.16 12.04 0 6.88 6.88 6.88 10.32 0 13.76 6.88 20.64 6.88"></polygon>
+            <path d="M42.6517,20.64 L35.26,20.64 C33.3602388,20.6397626 31.8202374,19.0997612 31.82,17.2 L31.82,10.5952 C32.1837173,10.7489164 32.5179867,10.9646107 32.8079185,11.232675 L41.89275,19.61875 C42.2077733,19.9083485 42.4652691,20.2548371 42.6517,20.64 L42.6517,20.64 Z" fill="#7DAFFF"></path>
+            <polygon fill="#3B57C4" points="25.8 17.2 27.52 17.2 27.52 18.92 25.8 18.92"></polygon>
+            <polygon fill="#3B57C4" points="19.78 17.2 23.22 17.2 23.22 18.92 19.78 18.92"></polygon>
+            <polygon fill="#3B57C4" points="24.08 22.36 30.1 22.36 30.1 24.08 24.08 24.08"></polygon>
+            <polygon fill="#3B57C4" points="36.12 27.52 37.84 27.52 37.84 29.24 36.12 29.24"></polygon>
+            <polygon fill="#3B57C4" points="23.22 27.52 33.54 27.52 33.54 29.24 23.22 29.24"></polygon>
+            <polygon fill="#3B57C4" points="17.2 27.52 20.64 27.52 20.64 29.24 17.2 29.24"></polygon>
+            <polygon fill="#3B57C4" points="26.66 32.68 37.84 32.68 37.84 34.4 26.66 34.4"></polygon>
+            <polygon fill="#3B57C4" points="17.2 32.68 24.08 32.68 24.08 34.4 17.2 34.4"></polygon>
+            <polygon fill="#3B57C4" points="35.26 37.84 37.84 37.84 37.84 39.56 35.26 39.56"></polygon>
+            <polygon fill="#3B57C4" points="23.22 37.84 32.68 37.84 32.68 39.56 23.22 39.56"></polygon>
+            <polygon fill="#3B57C4" points="17.2 37.84 20.64 37.84 20.64 39.56 17.2 39.56"></polygon>
+            <polygon fill="#3B57C4" points="27.52 43 37.84 43 37.84 44.72 27.52 44.72"></polygon>
+            <polygon fill="#3B57C4" points="17.2 43 24.94 43 24.94 44.72 17.2 44.72"></polygon>
+            <polygon fill="#3B57C4" points="19.78 22.36 21.5 22.36 21.5 24.08 19.78 24.08"></polygon>
+        </g>
+    </g>
+</svg>
