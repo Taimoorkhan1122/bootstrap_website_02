@@ -106,6 +106,14 @@ a.nav-link:active {
 .container-Por-qué-Wingoo {
     text-align: left;
 }
+
+/* bottom container  */
+
+#bottom-container {
+    background: url("./assets/01_CLIENT/PERFILES/TEXTURE_PERFILES_01.svg") no-repeat;
+    background-size: cover;
+}
+
 .mobile-view {
     display: none;
 }
@@ -520,11 +528,11 @@ a.lSNext {
 
 footer {
     background: transparent;
-    background-image:  url("./assets/FOOTER/FOOTER_USER_01.svg"),url("./assets/FOOTER/FOOTER_USER_02.svg");
+    background-image:  url("./assets/01_CLIENT/FOOTER/FOOTER_01.svg"),url("./assets/01_CLIENT/FOOTER/FOOTER_02.svg");
     background-size: contain, contain;
     background-position: bottom, bottom;
     background-repeat: no-repeat, no-repeat;
-    height: 60vh; 
+    height: 70vh; 
 }
 
 .logo img {
@@ -536,7 +544,7 @@ footer {
 }
 
 hr.footer-line {
-    background:  url("./assets/FOOTER/LINE_USER_FOOTER.svg");
+    background:  url("./assets/01_CLIENT/FOOTER/LINES_FOOTER.svg");
     border: none;
     height: 2px;
     opacity: 1;
