@@ -91,6 +91,21 @@ a.nav-link:active {
 }
 
 
+/* container-Por-qué-Wingoo` */
+
+.container-Por-qué-Wingoo  .sub-title {
+    color: var(--primary-light);
+}
+
+#Por-qué-Wingoo-container .text {
+    width: 380px;
+    margin: auto;
+    text-align: center;
+
+}
+.container-Por-qué-Wingoo {
+    text-align: left;
+}
 .mobile-view {
     display: none;
 }
