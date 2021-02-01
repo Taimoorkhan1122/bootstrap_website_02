@@ -73,6 +73,7 @@ a.nav-link:active {
 .container-functiona .text {
     width: 350px;
     margin: auto;
+    text-align: center;
 }
 .container-functiona .text .heading-text{
     text-transform: uppercase;
@@ -115,7 +116,7 @@ a.nav-link:active {
     background-size: auto;
     background-position: left top;
     background-repeat: no-repeat;
-    height: 70vw;
+    height: 60vw;
     z-index: 0;
     
 }
@@ -380,7 +381,7 @@ a .btn:focus{
         url("./assets/PERFILES/OVAL_04.svg") no-repeat  left 70% ,
         url("./assets/PERFILES/OVAL_05.svg") no-repeat  right 50% ,
         /* background  */
-        url("./assets/PERFILES/TEXTURE_PROFILE_01.svg") no-repeat center;
+        url("./assets/01_CLIENT/PERFILES/TEXTURE_PERFILES_01.svg") no-repeat center;
 
     background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
     height: 120vh;
@@ -388,7 +389,7 @@ a .btn:focus{
 
  /* button */
  a.profile-button-primary {
-     color: #fff !important;
+     color: var(--tertiary-dark-);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -397,14 +398,23 @@ a .btn:focus{
      width: fit-content;
      min-width: 150px;
      border-radius: 2rem;
-     color: var(--secondary-light);
-     background-color: var(--primary-light);
+     background-color: #fff;
      filter: drop-shadow(0px 6px 13px rgba(148, 140, 165, 0.314));
      -webkit-filter: drop-shadow(0px 6px 13px rgba(114, 184, 248, 0.314));
      font-size: 14px;
+     font-weight: bold;
  }
 
- /* profile section tiles */
+ a:focus {
+     outline: none !important;
+     border: none !important;
+     outline-offset: none !important;
+    }
+a:-webkit-any-link:focus {
+
+        outline-offset: none !important;
+}
+    /* profile section tiles */
 
 #technologies {
     height: 90vh;
@@ -435,12 +445,13 @@ a .btn:focus{
 
 
 span.active {
-    background-color: var(--tertiary-dark-);
+    background-color: rgba(50,19,113,0.1);
+    color: var(--primary-light);
     border-radius: 10px;
     padding: 0.5rem;
     min-width: 3rem;
     width: fit-content;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 1rem;
     text-align: center;
     opacity: 1;
