@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="17px" viewBox="0 0 30 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Burger</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-271.000000, -22.000000)" fill="#FFFFFF">
+            <g id="Burger" transform="translate(271.000000, 22.000000)">
+                <rect id="Line" x="0" y="0" width="30" height="3" rx="1.5"></rect>
+                <rect id="Line" x="0" y="7" width="30" height="3" rx="1.5"></rect>
+                <rect id="Line" x="0" y="14" width="30" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -113,7 +113,7 @@ a.nav-link:active {
 }
 
 .mobile-view {
-    display: none;
+    display: none !important;
 }
 
 .navbar-toggler {
@@ -141,147 +141,19 @@ a.nav-link:active {
     
 }
 
-/* como-functiona section  */
-#como-functiona {
-        position: relative;
-} 
-
-/* bg-shapes and patterns */
-#bg-shape-01 {
-    position: absolute;
-    left: 0%;
-    top: 110%;
-    z-index: -1;
-
-}
-
-#bg-shape-02 {
-    width: 10%;
-    position: absolute;
-    right: 0%;
-    top: 100%;
-    z-index: 0;
-
-}
-
- /* ----- CUBE -----  */
-#bg-cube-01 {
-    position: absolute;
-    right: 12%;
-    top: 20%;
-    z-index: 2;
-}
-
-#bg-cube-02 {
-    position: absolute;
-    right: 10%;
-    top: 75%;
-    z-index: 2;
-}
-/* ----- DOTs -----  */
-#bg-dots {
-    position: absolute;
-    left: 0;
-    top: 65%;
-    z-index: 2;
-}
-
-#bg-oval-01 {
-    position: absolute;
-    right: 0;
-    top: 100%;
-    z-index: 1;
-}
-
-#bg-oval-02 {
-    position: absolute;
-    right: 5%;
-    top: 55%;
-    z-index: 2;
-}
-
-#bg-oval-03 {
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    z-index: 1;
-}
-
-#bg-oval-04 {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    z-index: 1;
-}
-
-
 .container {
     max-width: 1080px ;
 }
+
 .header {
     width: 100%;
     height: 100vh;
     background: url("./assets/01_CLIENT/DOTS.svg") no-repeat;
     background-position: left bottom;
+    
 }
 
-/* platform illustration css */
 
-#img-bg-1 {
-    position: relative;
-}
-.bg-img-1{
-    position: absolute;
-    width: 30rem;
-    right: -10%;
-    z-index: 0;
-}
-.particles-1 {
-    position: absolute;
-    top: 80%;
-    right: 90%;
-    z-index: 3;
-}
-.particles-1-top {
-    position: absolute;
-    top: -20%;
-    left: 85%;
-    z-index: 3;
-}
-
-/* background shade 02 and Particle */
-#img-bg-2 {
-    position: relative;
-}
-.bg-img-2{
-    position: absolute;
-    width: 30rem;
-    left: 10%;
-    z-index: 0;
-}
-
-.particles-2 {
-    position: absolute;
-    top: 82%;
-    left: 93%;
-    z-index: 3;
-}
-
-#img-bg-3 {
-    position: relative;
-}
-.bg-img-3{
-    position: absolute;
-    width: 35rem;
-    right: -20%;
-    z-index: 0;
-}
-.particles-3 {
-    position: absolute;
-    top: 60%;
-    left: 80%;
-    z-index: 3;
-}
 
 button {
     font-family: 'lato';
@@ -323,6 +195,7 @@ button.secondary {
 
 ul.header-li  li span {
     font-size: 12px;
+    color: var(--primary-light);
 }
 
 .round-btn {
@@ -332,6 +205,10 @@ ul.header-li  li span {
 
 .text-container {
     max-width: 450px;
+}
+
+ .cta-image-container {
+        height: 100vh !important;
 }
 
 .illustration {
@@ -527,28 +404,27 @@ hr.footer-line {
         display: none;
     }
     .mobile-view {
-        display: block;
+        display: block !important; 
     }
     #navbarSupportedContent{
         text-align: end;   
     }
     #navHeaderContainer {
-    height: 90vh;
-    background-size: contain;   
+    height: 110vh;
+    background-size: contain;
+    padding: 0;
     }
     nav {
         padding: 0;
         margin: 0;
-        background: transparent
+        background:  linear-gradient(228.21deg, #592589 -1.71%, #B590D1 186.56%);
     }
     button {
         width: 230px;
     }
-    #navHeaderContainer{
-        padding: 0;
-    }
+   
     .hero-container{
-        /* background: #000; */
+        flex-wrap: wrap;
     }
 
     .header {
@@ -581,6 +457,10 @@ hr.footer-line {
         height: 25vh;
      
     }
+
+     .cta-image-container {
+        height: 60vh !important;
+    }
     
     #illustrations .image{
         top: 10%;
@@ -594,10 +474,19 @@ hr.footer-line {
         bottom: 0%;
     }
 
+    /* como functiona  */
+    .image img{
+        max-width: 70% !important;
+    }
+
+     img.line {
+        width: fit-content; 
+    }
     
     .profile{
         height: 100vh;
     }
+
     #technologies {
     height: 70vh;
     justify-content: center;
@@ -620,6 +509,7 @@ hr.footer-line {
     footer {
         height: 50vh;
     }
+   
     footer .logo img {
     width: 5vw;
     }
@@ -648,7 +538,7 @@ hr.footer-line {
         display: none;
     }
     .mobile-view {
-        display: block;
+        display: block !important;
     }
     #navbarSupportedContent{
         text-align: end;   
@@ -656,25 +546,30 @@ hr.footer-line {
     nav {
         padding: 0;
         margin: 0;
-        background: transparent;
+        background:  linear-gradient(228.21deg, #592589 -1.71%, #B590D1 186.56%);
     }
+    
     button {
         width: 230px;
     }
     /* container container background svg */
     #navHeaderContainer{
-    background-size: 100%;
-    background-position: left top;
-    background-repeat: no-repeat;
-    height: 230vw;
-    z-index: 0;
+        background-image: none;
+        height: 110vh;
+        z-index: 0;
     }
+
     .hero-container{
-        /* main conatiner for all header items */
-        /* flex-wrap: wrap-reverse; */
+        background-image:  url("./assets/01_CLIENT/TEXTURE_01.svg");
+        background-size: 120%;
+        background-position: left top;
+        background-repeat: no-repeat;
+        z-index: 0;
+        flex-wrap: wrap;
     }
     .header {
         height: 100vh;
+        background-position:  center right -80%;
     }
      #headerText {
         justify-content: center !important;
@@ -692,17 +587,19 @@ hr.footer-line {
         display: flex;
         justify-content: center;
     }
+    .cta-image-container {
+        height: 60vh !important;
+    }
 
     .header-li {
-        width: 100%;
-        /* flex-direction: row !important; */
+        width: 70vw;
         margin: 1rem 0 !important; 
     }
+
     /* illusttration positioning here */
     #illustrations {
         position: relative;
         height: 40vh;
-     
     }
     
     #illustrations .image{
@@ -713,7 +610,10 @@ hr.footer-line {
         max-width: 100% !important;
     }
 
-    
+    .image img{
+        max-width: 80% !important;
+    }
+
     #illustrations img {
         width: 45vw;
         bottom: 0%;
@@ -722,6 +622,10 @@ hr.footer-line {
     /* Como functiona  */
     #como-functiona {
         margin: 1rem 0 !important;
+    }
+
+    img.line {
+        width: fit-content; 
     }
 
     #Por-qué-Wingoo-container .text {
@@ -750,12 +654,10 @@ hr.footer-line {
         url("./assets/PERFILES/OVAL_04.svg") no-repeat  left 70% ,
         url("./assets/PERFILES/OVAL_05.svg") no-repeat  right 50% ,
         /* background  */
-        /* url("./assets/01_CLIENT/PERFILES/TEXTURE_PERFILES_01.svg") no-repeat center; */
         #F5F9FF;
         background-size: auto, auto, auto, auto, auto, auto, auto, auto;
         min-height: 120vh;
         height: 210vh;
-        /* background: #F5F9FF; */
     }   
     #technologies {
     height: 180vh;
@@ -770,57 +672,79 @@ hr.footer-line {
     }
     #technologies a:not(.profile-button-primary){
         margin: 0.5rem !important;
-        
     }
+
     #technologies > .line-one, .line-two, .line-three, .line-four, .line-five, .line-six, .line-seven {
         margin: 1.25rem 0 ;
     }
+
     #tags div{
         justify-content: space-around;
     }
+
     .line-three {
         width: 100% !important;
     }
+
     .line-four {
         width: 90% !important;
     }
+
     .line-five {
         width: 80% !important;
     }
+
     .line-six {
         width: 90% !important;
     }
+
     .line-seven {
         width: 100% !important;
     }
-    footer .logo img {
-    width: 5vw;
+
+    #footer {
+        padding: 0 !important;
     }
+
+     .links ul {
+        margin-bottom: 1rem !important;
+    }
+
+    footer .logo img {
+        width: 5vw;
+    }
+
     .text-center p {
         padding-top: 0 !important;
     }
-
 }
 
 
 @media only screen and (max-width: 320px){
+    
+    #navHeaderContainer{
+        height: 120vh;
+        z-index: 0;
+    }
+    
     .navbar>.container {
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 0;
     }
+
     .navbar>.container > ul, button {
         margin-left: 0.25rem !important;
     }
-    .particles-1-top {
-        
-        left: 70%;
-    }
-    .particles-3 {
-        position: absolute;
-        top: 60%;
-        left: 62%;
-        z-index: 3;
-    }
+     .profile {
+         height: 240vh;
+     }
+
+     #technologies {
+         height: 210vh;
+     }
+
+
+  
 }
 
